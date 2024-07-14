@@ -17,34 +17,31 @@ const About = () => {
             <div className="flex justify-end">
               <div className="flex flex-col gap-2">
                 <p className="text-base text-gray-400 flex items-center gap-2 text-3xl text-right">
-                  FirstName: <span className="text-lightText font-bold">Riya</span>
+                 Name: <span className="text-lightText font-bold">Riya Agrawal</span>
                 </p>
-                <p className="text-base text-gray-400 flex items-center gap-2 text-3xl text-right">
-                  LastName: <span className="text-lightText font-bold">Agrawal</span>
-                </p>
+                
                 <p className="text-base text-gray-400 flex items-center gap-2 text-3xl text-right">
                   Phone: <span className="text-lightText font-bold">+91 9881448576</span>
                 </p>
-                <p className="text-base text-gray-400 flex items-center gap-2 text-3xl text-right">
-                  Email: <span className="text-lightText font-bold">riyajagrawal@gmail.com</span>
-                </p>
+                
+                <p className="text-base text-gray-400 flex items-center gap-2 text-3xl">
+                Languages: <span className="text-lightText font-bold">Hindi, English, Marathi</span>
+              </p>
               </div>
             </div>
           </div>
           <div className="w-full lgl:w-[50%] h-full py-10 flex flex-col gap-8 p-4 lgl:p-8 rounded-lg">
             <div className="flex flex-col gap-2">
-              <p className="text-base text-gray-400 flex items-center gap-2 text-3xl">
-                Address: <span className="text-lightText font-bold">Nagpur, Maharashtra-440023</span>
-              </p>
+            <p className="text-base text-gray-400 flex items-center gap-2 text-3xl text-right">
+                  Email: <span className="text-lightText font-bold">riyajagrawal@gmail.com</span>
+                </p>
               <p className="text-base text-gray-400 flex items-center gap-2 text-3xl">
                 Age: <span className="text-lightText font-bold">21 Years</span>
               </p>
               <p className="text-base text-gray-400 flex items-center gap-2 text-3xl">
-                Languages: <span className="text-lightText font-bold">Hindi, English, Marathi</span>
+                Address: <span className="text-lightText font-bold">Nagpur, Maharashtra-440023</span>
               </p>
-              <p className="text-base text-gray-400 flex items-center gap-2 text-3xl">
-                Age: <span className="text-lightText font-bold">21</span>
-              </p>
+              
             </div>
           </div>
         </div>
