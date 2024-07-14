@@ -1,6 +1,6 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import { FaEnvelope, FaLinkedinIn, FaTwitter } from "react-icons/fa"
+import { FaEnvelope, FaLinkedinIn } from "react-icons/fa"
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -37,7 +37,7 @@ const LeftBanner = () => {
                         <a href="https://www.linkedin.com/in/riya-agrawal-500196204/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
                             <FaLinkedinIn />
                         </a>
-                      
+
                         <a href="mailto:riyajagrawal@gmail.com" className="bannerIcon">
                             <FaEnvelope />
                         </a>
