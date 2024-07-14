@@ -43,7 +43,7 @@ const About = () => {
                 Languages: <span className="text-lightText font-bold">Hindi, English, Marathi</span>
               </p>
               <p className="text-base text-gray-400 flex items-center gap-2 text-3xl">
-                Email: <span className="text-lightText font-bold">riyajagrawal@gmail.com</span>
+                Age: <span className="text-lightText font-bold">21</span>
               </p>
             </div>
           </div>
